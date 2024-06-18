@@ -37,4 +37,5 @@ html {
     .card-body{
         @apply text-lg font-medium text-primary-900;
     }
+   
 }
