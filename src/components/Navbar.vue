@@ -5,45 +5,98 @@
         <div class="flex h-16 items-center justify-between">
           <!-- Logo -->
           <div class="flex flex-1">
-            <a href="#">
+            <a href="/">
               <span class="sr-only">Your Company</span>
-              <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="Logo" />
+            
+              <svg class="h-8 w-auto" width="128" height="74" viewBox="0 0 184 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="64" height="64" rx="14" fill="#223F92"/>
+<path d="M51.3594 45.6172H47.9852C48.1598 45.0564 48.1871 44.4422 48.0317 43.8311L46.7954 39.0537C46.5689 38.1783 45.6761 37.6509 44.7998 37.8758L39.4193 39.2546L35.7202 24.7082L39.5363 23.7376L41.8236 32.7325C42.0469 33.6108 42.9403 34.1418 43.8179 33.9181C44.6963 33.6948 45.2269 32.802 45.0036 31.9237L41.1192 16.6483C40.9033 15.7991 40.3691 15.0846 39.6158 14.6366C38.8624 14.189 37.9803 14.0608 37.1302 14.2771L33.6406 15.1644V14.2812C33.6406 12.4721 32.1685 11 30.3594 11H26.4219C24.6127 11 23.1406 12.4721 23.1406 14.2812V17.5625H19.2031C17.394 17.5625 15.9219 19.0346 15.9219 20.8438V45.6172H12.6406C11.7344 45.6172 11 46.3516 11 47.2578C11 48.164 11.7344 48.8984 12.6406 48.8984H14.2812V51.3594C14.2812 52.2656 15.0157 53 15.9219 53C16.8281 53 17.5625 52.2656 17.5625 51.3594V48.8984H46.4375V51.3594C46.4375 52.2656 47.1719 53 48.0781 53C48.9843 53 49.7188 52.2656 49.7188 51.3594V48.8984H51.3594C52.2656 48.8984 53 48.164 53 47.2578C53 46.3516 52.2656 45.6172 51.3594 45.6172V45.6172ZM33.6406 29.8441L37.6515 45.6172H33.6406V29.8441ZM44.0288 41.4605L44.8533 44.6463L41.0372 45.6169L40.2281 42.4343L44.0288 41.4605ZM37.9389 17.4571L38.7275 20.5576L34.9115 21.5282L34.1232 18.4274L37.9389 17.4571ZM23.1406 20.8438V24.043H19.2031V20.8438H23.1406ZM19.2031 27.3242H23.1406V45.6172H19.2031V27.3242ZM26.4219 45.6172V14.2812H30.3594V45.6172H26.4219Z" fill="white"/>
+<path d="M80.304 33V9.16H90.352C91.9307 9.16 93.2747 9.43733 94.384 9.992C95.5147 10.5253 96.3787 11.2933 96.976 12.296C97.5947 13.2773 97.904 14.472 97.904 15.88C97.904 16.968 97.6053 17.992 97.008 18.952C96.432 19.8907 95.504 20.6693 94.224 21.288V19.272C95.3973 19.72 96.3253 20.2747 97.008 20.936C97.6907 21.5973 98.1707 22.3333 98.448 23.144C98.7253 23.9547 98.864 24.808 98.864 25.704C98.864 27.9867 98.1067 29.7787 96.592 31.08C95.0987 32.36 93.0187 33 90.352 33H80.304ZM84.656 29.16H90.8C91.9307 29.16 92.8267 28.8507 93.488 28.232C94.1707 27.592 94.512 26.7493 94.512 25.704C94.512 24.6587 94.1707 23.816 93.488 23.176C92.8267 22.536 91.9307 22.216 90.8 22.216H84.656V29.16ZM84.656 18.408H90.576C91.472 18.408 92.1867 18.152 92.72 17.64C93.2533 17.1067 93.52 16.424 93.52 15.592C93.52 14.76 93.2533 14.0987 92.72 13.608C92.1867 13.1173 91.472 12.872 90.576 12.872H84.656V18.408ZM110.589 33.384C108.882 33.384 107.325 32.9893 105.917 32.2C104.53 31.4107 103.421 30.3333 102.589 28.968C101.778 27.6027 101.373 26.0453 101.373 24.296C101.373 22.5467 101.778 20.9893 102.589 19.624C103.421 18.2587 104.53 17.1813 105.917 16.392C107.304 15.6027 108.861 15.208 110.589 15.208C112.296 15.208 113.842 15.6027 115.229 16.392C116.616 17.1813 117.714 18.2587 118.525 19.624C119.357 20.968 119.773 22.5253 119.773 24.296C119.773 26.0453 119.357 27.6027 118.525 28.968C117.693 30.3333 116.584 31.4107 115.197 32.2C113.81 32.9893 112.274 33.384 110.589 33.384ZM110.589 29.544C111.528 29.544 112.349 29.32 113.053 28.872C113.778 28.424 114.344 27.8053 114.749 27.016C115.176 26.2053 115.389 25.2987 115.389 24.296C115.389 23.272 115.176 22.376 114.749 21.608C114.344 20.8187 113.778 20.2 113.053 19.752C112.349 19.2827 111.528 19.048 110.589 19.048C109.629 19.048 108.786 19.2827 108.061 19.752C107.336 20.2 106.76 20.8187 106.333 21.608C105.928 22.376 105.725 23.272 105.725 24.296C105.725 25.2987 105.928 26.2053 106.333 27.016C106.76 27.8053 107.336 28.424 108.061 28.872C108.786 29.32 109.629 29.544 110.589 29.544ZM131.464 33.384C129.757 33.384 128.2 32.9893 126.792 32.2C125.405 31.4107 124.296 30.3333 123.464 28.968C122.653 27.6027 122.248 26.0453 122.248 24.296C122.248 22.5467 122.653 20.9893 123.464 19.624C124.296 18.2587 125.405 17.1813 126.792 16.392C128.179 15.6027 129.736 15.208 131.464 15.208C133.171 15.208 134.717 15.6027 136.104 16.392C137.491 17.1813 138.589 18.2587 139.4 19.624C140.232 20.968 140.648 22.5253 140.648 24.296C140.648 26.0453 140.232 27.6027 139.4 28.968C138.568 30.3333 137.459 31.4107 136.072 32.2C134.685 32.9893 133.149 33.384 131.464 33.384ZM131.464 29.544C132.403 29.544 133.224 29.32 133.928 28.872C134.653 28.424 135.219 27.8053 135.624 27.016C136.051 26.2053 136.264 25.2987 136.264 24.296C136.264 23.272 136.051 22.376 135.624 21.608C135.219 20.8187 134.653 20.2 133.928 19.752C133.224 19.2827 132.403 19.048 131.464 19.048C130.504 19.048 129.661 19.2827 128.936 19.752C128.211 20.2 127.635 20.8187 127.208 21.608C126.803 22.376 126.6 23.272 126.6 24.296C126.6 25.2987 126.803 26.2053 127.208 27.016C127.635 27.8053 128.211 28.424 128.936 28.872C129.661 29.32 130.504 29.544 131.464 29.544ZM143.827 33V8.776H148.019V24.648L146.419 24.168L154.611 15.592H159.827L153.395 22.6L159.955 33H155.155L149.459 23.976L151.955 23.464L146.707 29.096L148.019 26.536V33H143.827ZM171.832 33.384C169.997 33.384 168.365 33 166.936 32.232C165.528 31.464 164.418 30.408 163.608 29.064C162.797 27.72 162.392 26.1947 162.392 24.488V9.16H166.744V24.264C166.744 25.2453 166.957 26.1307 167.384 26.92C167.832 27.7093 168.44 28.328 169.208 28.776C169.976 29.2027 170.85 29.416 171.832 29.416C172.834 29.416 173.709 29.2027 174.456 28.776C175.224 28.328 175.821 27.7093 176.248 26.92C176.696 26.1307 176.92 25.2453 176.92 24.264V9.16H181.272V24.488C181.272 26.1947 180.866 27.72 180.056 29.064C179.245 30.408 178.125 31.464 176.696 32.232C175.288 33 173.666 33.384 171.832 33.384Z" fill="#5879D8"/>
+<path d="M81.4341 51.7852L84.1445 46.7197H84.8618L81.7705 52.4136V56H81.1167V52.4644L78 46.7197H78.7236L81.4341 51.7852ZM91.7363 52.5405C91.7363 53.0737 91.6707 53.5604 91.5396 54.0005C91.4084 54.4364 91.2137 54.813 90.9556 55.1304C90.6974 55.4478 90.3758 55.6932 89.9907 55.8667C89.6099 56.0402 89.1655 56.127 88.6577 56.127C88.1753 56.127 87.7458 56.0423 87.3691 55.873C86.9925 55.6995 86.673 55.4541 86.4106 55.1367C86.1525 54.8193 85.9557 54.4427 85.8203 54.0068C85.6849 53.5667 85.6172 53.078 85.6172 52.5405C85.6172 51.8 85.7399 51.1631 85.9854 50.6299C86.235 50.0924 86.5905 49.682 87.0518 49.3984C87.5173 49.1107 88.0737 48.9668 88.7212 48.9668C89.3898 48.9668 89.9463 49.1191 90.3906 49.4238C90.8392 49.7243 91.1756 50.1432 91.3999 50.6807C91.6242 51.2181 91.7363 51.8381 91.7363 52.5405ZM86.2773 52.5405C86.2773 53.1457 86.3641 53.6746 86.5376 54.1274C86.7111 54.5802 86.9735 54.9336 87.3247 55.1875C87.6802 55.4414 88.1287 55.5684 88.6704 55.5684C89.2248 55.5684 89.6797 55.4414 90.0352 55.1875C90.3906 54.9336 90.653 54.5781 90.8223 54.1211C90.9915 53.6641 91.0762 53.1372 91.0762 52.5405C91.0762 51.9608 90.9958 51.4445 90.835 50.9917C90.6742 50.5389 90.4202 50.1834 90.0732 49.9253C89.7262 49.6629 89.2734 49.5317 88.7148 49.5317C87.915 49.5317 87.3078 49.7983 86.8931 50.3315C86.4826 50.8647 86.2773 51.6011 86.2773 52.5405ZM99.0044 49.1001V56H98.4839L98.3887 54.7559H98.3506C98.2321 55.0098 98.0649 55.2404 97.8491 55.4478C97.6333 55.6551 97.3688 55.8201 97.0557 55.9429C96.7425 56.0656 96.3786 56.127 95.9639 56.127C95.4349 56.127 94.9906 56.036 94.6309 55.854C94.2754 55.6678 94.0067 55.3885 93.8247 55.0161C93.6427 54.6437 93.5518 54.1782 93.5518 53.6196V49.1001H94.1929V53.5562C94.1929 54.2459 94.3473 54.7537 94.6562 55.0796C94.9694 55.4054 95.4264 55.5684 96.0273 55.5684C96.5352 55.5684 96.9604 55.471 97.3032 55.2764C97.6502 55.0817 97.9126 54.7876 98.0903 54.394C98.2723 53.9963 98.3633 53.5011 98.3633 52.9087V49.1001H99.0044ZM104.07 48.9795C104.252 48.9795 104.423 48.9901 104.584 49.0112C104.745 49.0324 104.895 49.062 105.035 49.1001L104.933 49.6904C104.793 49.6523 104.652 49.6248 104.508 49.6079C104.364 49.5868 104.209 49.5762 104.044 49.5762C103.719 49.5762 103.427 49.6375 103.168 49.7603C102.915 49.883 102.699 50.0586 102.521 50.2871C102.343 50.5156 102.208 50.7907 102.115 51.1123C102.022 51.4339 101.975 51.7936 101.975 52.1914V56H101.328V49.1001H101.88L101.943 50.4014H101.981C102.087 50.1348 102.235 49.8957 102.426 49.6841C102.62 49.4683 102.855 49.2969 103.13 49.1699C103.405 49.043 103.719 48.9795 104.07 48.9795ZM109.929 46.7197H112.474C113.621 46.7197 114.459 46.8996 114.988 47.2593C115.521 47.619 115.788 48.1924 115.788 48.9795C115.788 49.335 115.718 49.6587 115.578 49.9507C115.443 50.2427 115.24 50.4881 114.969 50.687C114.702 50.8817 114.372 51.015 113.979 51.0869V51.1313C114.448 51.2033 114.835 51.3345 115.14 51.5249C115.449 51.7111 115.678 51.9587 115.826 52.2676C115.978 52.5723 116.054 52.9362 116.054 53.3594C116.054 53.9688 115.915 54.4681 115.635 54.8574C115.36 55.2467 114.977 55.5345 114.486 55.7207C113.995 55.9069 113.428 56 112.785 56H109.929V46.7197ZM110.583 50.8457H112.639C113.511 50.8457 114.141 50.6934 114.531 50.3887C114.92 50.084 115.115 49.6333 115.115 49.0366C115.115 48.4188 114.905 47.9744 114.486 47.7036C114.067 47.4328 113.397 47.2974 112.474 47.2974H110.583V50.8457ZM110.583 51.417V55.4224H112.766C113.625 55.4224 114.273 55.2489 114.708 54.9019C115.144 54.5506 115.362 54.028 115.362 53.334C115.362 52.877 115.261 52.5088 115.058 52.2295C114.854 51.946 114.55 51.7407 114.144 51.6138C113.742 51.4826 113.24 51.417 112.639 51.417H110.583ZM123.64 52.5405C123.64 53.0737 123.574 53.5604 123.443 54.0005C123.312 54.4364 123.117 54.813 122.859 55.1304C122.601 55.4478 122.279 55.6932 121.894 55.8667C121.513 56.0402 121.069 56.127 120.561 56.127C120.079 56.127 119.649 56.0423 119.272 55.873C118.896 55.6995 118.576 55.4541 118.314 55.1367C118.056 54.8193 117.859 54.4427 117.724 54.0068C117.588 53.5667 117.521 53.078 117.521 52.5405C117.521 51.8 117.643 51.1631 117.889 50.6299C118.138 50.0924 118.494 49.682 118.955 49.3984C119.421 49.1107 119.977 48.9668 120.625 48.9668C121.293 48.9668 121.85 49.1191 122.294 49.4238C122.743 49.7243 123.079 50.1432 123.303 50.6807C123.528 51.2181 123.64 51.8381 123.64 52.5405ZM118.181 52.5405C118.181 53.1457 118.267 53.6746 118.441 54.1274C118.614 54.5802 118.877 54.9336 119.228 55.1875C119.583 55.4414 120.032 55.5684 120.574 55.5684C121.128 55.5684 121.583 55.4414 121.938 55.1875C122.294 54.9336 122.556 54.5781 122.726 54.1211C122.895 53.6641 122.979 53.1372 122.979 52.5405C122.979 51.9608 122.899 51.4445 122.738 50.9917C122.577 50.5389 122.324 50.1834 121.977 49.9253C121.63 49.6629 121.177 49.5317 120.618 49.5317C119.818 49.5317 119.211 49.7983 118.796 50.3315C118.386 50.8647 118.181 51.6011 118.181 52.5405ZM131.27 52.5405C131.27 53.0737 131.204 53.5604 131.073 54.0005C130.942 54.4364 130.747 54.813 130.489 55.1304C130.231 55.4478 129.909 55.6932 129.524 55.8667C129.143 56.0402 128.699 56.127 128.191 56.127C127.708 56.127 127.279 56.0423 126.902 55.873C126.526 55.6995 126.206 55.4541 125.944 55.1367C125.686 54.8193 125.489 54.4427 125.354 54.0068C125.218 53.5667 125.15 53.078 125.15 52.5405C125.15 51.8 125.273 51.1631 125.519 50.6299C125.768 50.0924 126.124 49.682 126.585 49.3984C127.05 49.1107 127.607 48.9668 128.254 48.9668C128.923 48.9668 129.479 49.1191 129.924 49.4238C130.372 49.7243 130.709 50.1432 130.933 50.6807C131.157 51.2181 131.27 51.8381 131.27 52.5405ZM125.811 52.5405C125.811 53.1457 125.897 53.6746 126.071 54.1274C126.244 54.5802 126.507 54.9336 126.858 55.1875C127.213 55.4414 127.662 55.5684 128.204 55.5684C128.758 55.5684 129.213 55.4414 129.568 55.1875C129.924 54.9336 130.186 54.5781 130.355 54.1211C130.525 53.6641 130.609 53.1372 130.609 52.5405C130.609 51.9608 130.529 51.4445 130.368 50.9917C130.207 50.5389 129.953 50.1834 129.606 49.9253C129.259 49.6629 128.807 49.5317 128.248 49.5317C127.448 49.5317 126.841 49.7983 126.426 50.3315C126.016 50.8647 125.811 51.6011 125.811 52.5405ZM133.815 46.123V51.106C133.815 51.4149 133.811 51.7301 133.802 52.0518C133.798 52.3691 133.792 52.6865 133.783 53.0039H133.796C133.919 52.86 134.046 52.7098 134.177 52.5532C134.312 52.3924 134.445 52.238 134.577 52.0898L137.306 49.1001H138.081L135.357 52.0581L138.322 56H137.554L134.919 52.4834L133.815 53.645V56H133.174V46.123H133.815ZM148.123 53.6069C148.123 54.1613 147.983 54.6268 147.704 55.0034C147.424 55.3758 147.046 55.6572 146.567 55.8477C146.089 56.0339 145.548 56.127 144.942 56.127C144.566 56.127 144.223 56.1079 143.914 56.0698C143.609 56.036 143.332 55.9894 143.083 55.9302C142.837 55.8709 142.613 55.8032 142.41 55.7271V55.0732C142.74 55.2002 143.121 55.3123 143.552 55.4097C143.988 55.5028 144.462 55.5493 144.974 55.5493C145.457 55.5493 145.884 55.4795 146.256 55.3398C146.633 55.2002 146.929 54.9886 147.145 54.7051C147.361 54.4215 147.469 54.064 147.469 53.6323C147.469 53.2515 147.378 52.9404 147.196 52.6992C147.018 52.4538 146.749 52.2443 146.39 52.0708C146.03 51.8931 145.577 51.7132 145.031 51.5312C144.65 51.4001 144.303 51.2625 143.99 51.1187C143.681 50.9705 143.417 50.8013 143.197 50.6108C142.977 50.4162 142.807 50.1834 142.689 49.9126C142.575 49.6375 142.518 49.3138 142.518 48.9414C142.518 48.4294 142.647 47.9998 142.905 47.6528C143.167 47.3016 143.521 47.0371 143.965 46.8594C144.413 46.6774 144.917 46.5864 145.476 46.5864C145.92 46.5864 146.341 46.6287 146.739 46.7134C147.141 46.7938 147.528 46.9165 147.9 47.0815L147.672 47.6465C147.299 47.4857 146.927 47.3672 146.555 47.291C146.182 47.2148 145.814 47.1768 145.45 47.1768C145.014 47.1768 144.625 47.2424 144.282 47.3735C143.944 47.5005 143.675 47.693 143.476 47.9512C143.277 48.2093 143.178 48.5352 143.178 48.9287C143.178 49.335 143.269 49.6629 143.451 49.9126C143.637 50.1623 143.899 50.3696 144.238 50.5347C144.581 50.6997 144.985 50.8605 145.45 51.0171C146 51.2033 146.474 51.4001 146.872 51.6074C147.27 51.8105 147.577 52.0687 147.792 52.3818C148.013 52.695 148.123 53.1034 148.123 53.6069ZM151.811 55.5747C152.009 55.5747 152.194 55.5599 152.363 55.5303C152.536 55.5007 152.689 55.4626 152.82 55.416V55.9492C152.684 55.9958 152.526 56.036 152.344 56.0698C152.162 56.1079 151.961 56.127 151.741 56.127C151.351 56.127 151.028 56.055 150.77 55.9111C150.511 55.763 150.317 55.5409 150.186 55.2446C150.054 54.9442 149.989 54.5633 149.989 54.1021V49.6333H148.96V49.2524L149.982 49.0557L150.205 47.4307H150.63V49.1001H152.782V49.6333H150.63V54.064C150.63 54.5591 150.721 54.9357 150.903 55.1938C151.089 55.4478 151.392 55.5747 151.811 55.5747ZM160.024 52.5405C160.024 53.0737 159.959 53.5604 159.828 54.0005C159.696 54.4364 159.502 54.813 159.244 55.1304C158.986 55.4478 158.664 55.6932 158.279 55.8667C157.898 56.0402 157.454 56.127 156.946 56.127C156.463 56.127 156.034 56.0423 155.657 55.873C155.281 55.6995 154.961 55.4541 154.699 55.1367C154.441 54.8193 154.244 54.4427 154.108 54.0068C153.973 53.5667 153.905 53.078 153.905 52.5405C153.905 51.8 154.028 51.1631 154.273 50.6299C154.523 50.0924 154.879 49.682 155.34 49.3984C155.805 49.1107 156.362 48.9668 157.009 48.9668C157.678 48.9668 158.234 49.1191 158.679 49.4238C159.127 49.7243 159.464 50.1432 159.688 50.6807C159.912 51.2181 160.024 51.8381 160.024 52.5405ZM154.565 52.5405C154.565 53.1457 154.652 53.6746 154.826 54.1274C154.999 54.5802 155.262 54.9336 155.613 55.1875C155.968 55.4414 156.417 55.5684 156.958 55.5684C157.513 55.5684 157.968 55.4414 158.323 55.1875C158.679 54.9336 158.941 54.5781 159.11 54.1211C159.28 53.6641 159.364 53.1372 159.364 52.5405C159.364 51.9608 159.284 51.4445 159.123 50.9917C158.962 50.5389 158.708 50.1834 158.361 49.9253C158.014 49.6629 157.562 49.5317 157.003 49.5317C156.203 49.5317 155.596 49.7983 155.181 50.3315C154.771 50.8647 154.565 51.6011 154.565 52.5405ZM164.677 48.9795C164.859 48.9795 165.031 48.9901 165.191 49.0112C165.352 49.0324 165.502 49.062 165.642 49.1001L165.541 49.6904C165.401 49.6523 165.259 49.6248 165.115 49.6079C164.971 49.5868 164.817 49.5762 164.652 49.5762C164.326 49.5762 164.034 49.6375 163.776 49.7603C163.522 49.883 163.306 50.0586 163.128 50.2871C162.951 50.5156 162.815 50.7907 162.722 51.1123C162.629 51.4339 162.583 51.7936 162.583 52.1914V56H161.935V49.1001H162.487L162.551 50.4014H162.589C162.695 50.1348 162.843 49.8957 163.033 49.6841C163.228 49.4683 163.463 49.2969 163.738 49.1699C164.013 49.043 164.326 48.9795 164.677 48.9795ZM169.609 48.9668C170.198 48.9668 170.686 49.1043 171.076 49.3794C171.469 49.6545 171.761 50.0311 171.952 50.5093C172.146 50.9875 172.244 51.5355 172.244 52.1533V52.6167H167.261C167.261 53.5646 167.479 54.2925 167.915 54.8003C168.355 55.3081 168.983 55.562 169.8 55.562C170.227 55.562 170.597 55.5282 170.911 55.4604C171.228 55.3885 171.579 55.2679 171.964 55.0986V55.689C171.626 55.8413 171.287 55.9513 170.949 56.019C170.61 56.091 170.221 56.127 169.781 56.127C169.083 56.127 168.496 55.9831 168.022 55.6953C167.553 55.4033 167.197 54.9928 166.956 54.4639C166.719 53.9349 166.601 53.3171 166.601 52.6104C166.601 51.9206 166.715 51.3006 166.943 50.7505C167.176 50.2004 167.515 49.7666 167.959 49.4492C168.408 49.1276 168.958 48.9668 169.609 48.9668ZM169.603 49.519C168.943 49.519 168.408 49.7391 167.997 50.1792C167.591 50.6151 167.352 51.2456 167.28 52.0708H171.577C171.577 51.5672 171.505 51.1229 171.361 50.7378C171.217 50.3527 171 50.0544 170.708 49.8428C170.42 49.627 170.052 49.519 169.603 49.519Z" fill="#223F92"/>
+</svg>
             </a>
           </div>
 
-          <div class="absolute inset-x-0 bottom-0 overflow-x-auto border-t sm:static sm:border-t-0">
-            <div class="flex h-14 items-center space-x-8 px-4 sm:h-auto">
-              <!-- Dropdown Menu for Buku Sekolah -->
-              <div class="relative" @click="toggleDropdown" style="z-index: 10;">
-                <button class="text-sm font-medium text-gray-700 hover:text-gray-800">
-                  Buku Sekolah
-                </button>
-                <div v-if="showDropdown" class="absolute left-0 mt-2 w-48 bg-white border border-gray-200 shadow-lg">
-                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Buku TK</a>
-                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Buku SD</a>
-                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Buku SMP</a>
-                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Buku SMA</a>
-                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kuliah</a>
-                </div>
+          <div class="flex h-14 items-center space-x-8 px-4">
+            <!-- Dropdown Menu for Buku Sekolah -->
+            <div class="relative" @click="toggleDropdown" style="z-index: 10;">
+              <button class="text-sm font-medium text-gray-700 hover:text-gray-800">
+                Buku Sekolah
+              </button>
+              <div v-if="showDropdown" class="absolute left-0 mt-2 w-48 bg-white border border-gray-200 shadow-lg">
+                <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Buku TK</a>
+                <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Buku SD</a>
+                <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Buku SMP</a>
+                <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Buku SMA</a>
+                <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kuliah</a>
               </div>
-              <a href="#" class="text-sm font-medium text-gray-700 hover:text-gray-800">Buku Umum</a>
-              <a href="#" class="text-sm font-medium text-gray-700 hover:text-gray-800">E-Book</a>
-              <a href="#" class="text-sm font-medium text-gray-700 hover:text-gray-800">E-Library</a>
             </div>
+            <a href="/books" class="text-sm font-medium text-gray-700 hover:text-gray-800">Buku Umum</a>
+            <a href="/books" class="text-sm font-medium text-gray-700 hover:text-gray-800">E-Book</a>
+            <a href="/books" class="text-sm font-medium text-gray-700 hover:text-gray-800">E-Library</a>
           </div>
 
           <div class="flex flex-1 items-center justify-end">
             <!-- Search -->
-            <button @click="showCommandPalette = true" class="p-2 text-gray-400 hover:text-gray-500">
+            <button @click="open = true" class="p-2 text-gray-400 hover:text-gray-500">
               <span class="sr-only">Search</span>
               <MagnifyingGlassIcon class="h-6 w-6" aria-hidden="true" />
             </button>
-            <div v-if="showCommandPalette" class="fixed inset-0 bg-gray-800 bg-opacity-75 flex items-center justify-center z-50" v-click-outside="closeCommandPalette">
-              <div class="bg-white p-6 rounded-lg shadow-lg">
-                <input v-model="searchQuery" type="text" placeholder="Search by title or author" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500" />
-                <button @click="searchBooks" class="mt-4 w-full rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500">Search</button>
-              </div>
-            </div>
+            <TransitionRoot :show="open" as="template" @after-leave="query = ''" appear>
+              <Dialog as="div" class="relative z-10" @close="open = false">
+                <TransitionChild as="template" enter="ease-out duration-300" enter-from="opacity-0" enter-to="opacity-100" leave="ease-in duration-200" leave-from="opacity-100" leave-to="opacity-0">
+                  <div class="fixed inset-0 bg-gray-500 bg-opacity-25 transition-opacity" />
+                </TransitionChild>
+
+                <div class="fixed inset-0 z-10 overflow-y-auto p-4 sm:p-6 md:p-20">
+                  <TransitionChild as="template" enter="ease-out duration-300" enter-from="opacity-0 scale-95" enter-to="opacity-100 scale-100" leave="ease-in duration-200" leave-from="opacity-100 scale-100" leave-to="opacity-0 scale-95">
+                    <DialogPanel class="mx-auto max-w-2xl transform divide-y divide-gray-500 divide-opacity-10 overflow-hidden rounded-xl bg-white bg-opacity-80 shadow-2xl ring-1 ring-black ring-opacity-5 backdrop-blur backdrop-filter transition-all">
+                      <Combobox @update:modelValue="onSelect">
+                        <div class="relative">
+                          <MagnifyingGlassIcon class="pointer-events-none absolute top-3.5 left-4 h-5 w-5 text-gray-900 text-opacity-40" aria-hidden="true" />
+                          <ComboboxInput class="h-12 w-full border-0 bg-transparent pl-11 pr-4 text-gray-900 placeholder-gray-500 focus:ring-0 sm:text-sm" placeholder="Search..." @change="query = $event.target.value" />
+                        </div>
+
+                        <ComboboxOptions v-if="query === '' || filteredProjects.length > 0" static class="max-h-80 scroll-py-2 divide-y divide-gray-500 divide-opacity-10 overflow-y-auto">
+                          <li class="p-2">
+                            <h2 v-if="query === ''" class="mt-4 mb-2 px-3 text-xs font-semibold text-gray-900">Recent searches</h2>
+                            <ul class="text-sm text-gray-700">
+                              <ComboboxOption v-for="project in query === '' ? recent : filteredProjects" :key="project.id" :value="project" as="template" v-slot="{ active }">
+                                <li :class="['flex cursor-default select-none items-center rounded-md px-3 py-2', active && 'bg-gray-900 bg-opacity-5 text-gray-900']">
+                                  <FolderIcon :class="['h-6 w-6 flex-none text-gray-900 text-opacity-40', active && 'text-opacity-100']" aria-hidden="true" />
+                                  <span class="ml-3 flex-auto truncate">{{ project.name }}</span>
+                                  <span v-if="active" class="ml-3 flex-none text-gray-500">Jump to...</span>
+                                </li>
+                              </ComboboxOption>
+                            </ul>
+                          </li>
+                          <li v-if="query === ''" class="p-2">
+                            <h2 class="sr-only">Quick actions</h2>
+                            <ul class="text-sm text-gray-700">
+                              <ComboboxOption v-for="action in quickActions" :key="action.shortcut" :value="action" as="template" v-slot="{ active }">
+                                <li :class="['flex cursor-default select-none items-center rounded-md px-3 py-2', active && 'bg-gray-900 bg-opacity-5 text-gray-900']">
+                                  <component :is="action.icon" :class="['h-6 w-6 flex-none text-gray-900 text-opacity-40', active && 'text-opacity-100']" aria-hidden="true" />
+                                  <span class="ml-3 flex-auto truncate">{{ action.name }}</span>
+                                  <span class="ml-3 flex-none text-xs font-semibold text-gray-500">
+                                    <kbd class="font-sans">⌘</kbd>
+                                    <kbd class="font-sans">{{ action.shortcut }}</kbd>
+                                  </span>
+                                </li>
+                              </ComboboxOption>
+                            </ul>
+                          </li>
+                        </ComboboxOptions>
+
+                        <div v-if="query !== '' && filteredProjects.length === 0" class="py-14 px-6 text-center sm:px-14">
+                          <FolderIcon class="mx-auto h-6 w-6 text-gray-900 text-opacity-40" aria-hidden="true" />
+                          <p class="mt-4 text-sm text-gray-900">We couldn't find any projects with that term. Please try again.</p>
+                        </div>
+                      </Combobox>
+                    </DialogPanel>
+                  </TransitionChild>
+                </div>
+              </Dialog>
+            </TransitionRoot>
 
             <!-- Cart -->
             <Popover class="mx-4 flow-root text-sm lg:relative lg:ml-8 z-50">
@@ -88,10 +141,6 @@
                     </div>
 
                     <button type="submit" @click.prevent="checkout" class="mt-4 w-full rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-50">Checkout via WhatsApp</button>
-
-                    <p class="mt-6 text-center">
-                      <a href="#" class="text-sm font-medium text-indigo-600 hover:text-indigo-500">View Shopping Bag</a>
-                    </p>
                   </form>
                 </PopoverPanel>
               </transition>
@@ -109,6 +158,8 @@ import { MagnifyingGlassIcon, ShoppingBagIcon } from '@heroicons/vue/24/outline'
 import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
 import Button from './Button.vue'
 import { ref, computed } from 'vue'
+import { Combobox, ComboboxInput, ComboboxOptions, ComboboxOption, Dialog, DialogPanel, TransitionChild, TransitionRoot } from '@headlessui/vue'
+import { DocumentPlusIcon, FolderIcon, FolderPlusIcon, HashtagIcon, TagIcon } from '@heroicons/vue/24/outline'
 
 // Custom directive for click outside
 const clickOutside = {
@@ -126,6 +177,7 @@ const clickOutside = {
 };
 
 // State variables
+const open = ref(false);
 const showDropdown = ref(false);
 const showCommandPalette = ref(false);
 const searchQuery = ref('');
@@ -134,20 +186,20 @@ const searchQuery = ref('');
 const cartItems = ref([
   {
     id: 1,
-    name: 'Throwback Hip Bag',
+    name: 'Buku 1',
     href: '#',
     price: 'Rp 150,000',
     quantity: 1,
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-01.jpg',
+    imageSrc: 'https://via.placeholder.com/150?text=Book+1',
     imageAlt: 'Salmon orange fabric pouch with match zipper, gray zipper pull, and adjustable hip belt.',
   },
   {
     id: 2,
-    name: 'Medium Stuff Satchel',
+    name: 'Buku 2',
     href: '#',
     price: 'Rp 200,000',
     quantity: 1,
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-02.jpg',
+    imageSrc: 'https://via.placeholder.com/150?text=Book+2',
     imageAlt: 'Front of satchel with blue canvas body, black straps and handle, drawstring top, and front zipper pouch.',
   },
   // More products...
@@ -197,9 +249,35 @@ const searchBooks = () => {
 // Function to handle checkout
 const checkout = () => {
   const message = cartItems.value.map(item => `${item.name} - ${item.quantity}x`).join('\n');
-  const whatsappLink = `https://wa.me/yourwhatsappnumber?text=${encodeURIComponent(`Checkout items:\n${message}\nTotal: ${totalPrice.value}`)}`;
+  const whatsappLink = `https://wa.me/6282249557123?text=${encodeURIComponent(`Checkout items:\n${message}\nTotal: ${totalPrice.value}`)}`;
   window.open(whatsappLink, '_blank');
 };
+
+// Project data
+const projects = [
+  { id: 1, name: 'Workflow Inc. / Website Redesign', url: '#' },
+  // More projects...
+];
+const recent = [projects[0]];
+const quickActions = [
+  { name: 'Add new file...', icon: DocumentPlusIcon, shortcut: 'N', url: '#' },
+  { name: 'Add new folder...', icon: FolderPlusIcon, shortcut: 'F', url: '#' },
+  { name: 'Add hashtag...', icon: HashtagIcon, shortcut: 'H', url: '#' },
+  { name: 'Add label...', icon: TagIcon, shortcut: 'L', url: '#' },
+];
+
+const query = ref('');
+const filteredProjects = computed(() =>
+  query.value === ''
+    ? []
+    : projects.filter((project) => {
+        return project.name.toLowerCase().includes(query.value.toLowerCase());
+      })
+);
+
+function onSelect(item) {
+  window.location = item.url;
+}
 </script>
 
 <style scoped>

@@ -14,7 +14,7 @@ defineProps({
 <template>
 
     <button v-if="type == 'fill'" type="button" class="btn-primary"
-        :class="[type == 'solid' ? 'text-primary-500' : 'text-primary-100']">
+        :class="[type == 'solid' ? 'text-primary-500' : 'text-white']">
         {{ text }}<slot></slot>
     </button>
 
