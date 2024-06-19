@@ -78,7 +78,7 @@
                                   <component :is="action.icon" :class="['h-6 w-6 flex-none text-gray-900 text-opacity-40', active && 'text-opacity-100']" aria-hidden="true" />
                                   <span class="ml-3 flex-auto truncate">{{ action.name }}</span>
                                   <span class="ml-3 flex-none text-xs font-semibold text-gray-500">
-                                    <kbd class="font-sans">⌘</kbd>
+                                   
                                     <kbd class="font-sans">{{ action.shortcut }}</kbd>
                                   </span>
                                 </li>
@@ -154,7 +154,7 @@
 </template>
 
 <script setup>
-import { MagnifyingGlassIcon, ShoppingBagIcon } from '@heroicons/vue/24/outline'
+import { BookOpenIcon, MagnifyingGlassIcon, ShoppingBagIcon } from '@heroicons/vue/24/outline'
 import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
 import Button from './Button.vue'
 import { ref, computed } from 'vue'
@@ -255,15 +255,15 @@ const checkout = () => {
 
 // Project data
 const projects = [
-  { id: 1, name: 'Workflow Inc. / Website Redesign', url: '#' },
+  { id: 1, name: 'Buku 10', url: '#' },
   // More projects...
 ];
 const recent = [projects[0]];
 const quickActions = [
-  { name: 'Add new file...', icon: DocumentPlusIcon, shortcut: 'N', url: '#' },
-  { name: 'Add new folder...', icon: FolderPlusIcon, shortcut: 'F', url: '#' },
-  { name: 'Add hashtag...', icon: HashtagIcon, shortcut: 'H', url: '#' },
-  { name: 'Add label...', icon: TagIcon, shortcut: 'L', url: '#' },
+  { name: 'Book 1', icon: BookOpenIcon, shortcut: 'Buka', url: '#' },
+ { name: 'Book 2', icon: BookOpenIcon, shortcut: 'Buka', url: '#' },
+ { name: 'Book 3', icon: BookOpenIcon, shortcut: 'Buka', url: '#' },
+  { name: 'Book 4', icon: BookOpenIcon, shortcut: 'Buka', url: '#' },
 ];
 
 const query = ref('');

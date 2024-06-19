@@ -252,7 +252,7 @@ const books = [
   {
     id: 1,
     title: 'Judul Buku 1',
-    href: '/bookdetail',
+    href: './bookdetail',
     price: 25000,
     year: '2020',
     author: 'Pengarang 1',
@@ -262,7 +262,7 @@ const books = [
   {
     id: 2,
     title: 'Judul Buku 2',
-    href: '/bookdetail',
+    href: './bookdetail',
     price: 30000,
     year: '2019',
     author: 'Pengarang 2',
@@ -272,7 +272,7 @@ const books = [
   {
     id: 3,
     title: 'Judul Buku 3',
-    href: '/bookdetail',
+    href: './bookdetail',
     price: 45000,
     year: '2021',
     author: 'Pengarang 3',
@@ -282,7 +282,7 @@ const books = [
   {
     id: 4,
     title: 'Judul Buku 4',
-    href: '/bookdetail',
+    href: './bookdetail',
     price: 35000,
     year: '2018',
     author: 'Pengarang 4',
@@ -292,7 +292,7 @@ const books = [
   {
     id: 5,
     title: 'Judul Buku 5',
-    href: '/bookdetail',
+    href: './bookdetail',
     price: 40000,
     year: '2022',
     author: 'Pengarang 5',
@@ -302,7 +302,7 @@ const books = [
   {
     id: 6,
     title: 'Judul Buku 6',
-    href: '/bookdetail',
+    href: './bookdetail',
     price: 50000,
     year: '2021',
     author: 'Pengarang 6',
@@ -312,7 +312,7 @@ const books = [
   {
     id: 7,
     title: 'Judul Buku 7',
-    href: '/bookdetail',
+    href: './bookdetail',
     price: 60000,
     year: '2020',
     author: 'Pengarang 7',
@@ -322,7 +322,7 @@ const books = [
   {
     id: 8,
     title: 'Judul Buku 8',
-    href: '/bookdetail',
+    href: './bookdetail',
     price: 70000,
     year: '2019',
     author: 'Pengarang 8',

@@ -29,7 +29,7 @@ const routes = [
   },
   {
     path: '/bookdetail',  // Menambahkan parameter dinamis untuk detail buku
-    name: 'BookDetail',
+    name: 'Book Detail',
     component: BookDetail,
   },
   {
