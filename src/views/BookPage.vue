@@ -256,7 +256,7 @@ const books = [
     price: 25000,
     year: '2020',
     author: 'Pengarang 1',
-    imageSrc: 'https://via.placeholder.com/150',
+    imageSrc: 'https://shop.bukuerlangga.com/uploads/cover/0043710280.jpg',
     imageAlt: 'Sampul Buku Judul Buku 1',
   },
   {
@@ -266,7 +266,7 @@ const books = [
     price: 30000,
     year: '2019',
     author: 'Pengarang 2',
-    imageSrc: 'https://via.placeholder.com/150',
+    imageSrc: 'https://shop.bukuerlangga.com/uploads/cover/8082071320.jpg',
     imageAlt: 'Sampul Buku Judul Buku 2',
   },
   {
@@ -276,7 +276,7 @@ const books = [
     price: 45000,
     year: '2021',
     author: 'Pengarang 3',
-    imageSrc: 'https://via.placeholder.com/150',
+    imageSrc: 'https://shop.bukuerlangga.com/uploads/cover/5024900080.jpg',
     imageAlt: 'Sampul Buku Judul Buku 3',
   },
   {
@@ -286,7 +286,7 @@ const books = [
     price: 35000,
     year: '2018',
     author: 'Pengarang 4',
-    imageSrc: 'https://via.placeholder.com/150',
+    imageSrc: 'https://shop.bukuerlangga.com/uploads/cover/0020040180.jpg',
     imageAlt: 'Sampul Buku Judul Buku 4',
   },
   {
@@ -296,7 +296,7 @@ const books = [
     price: 40000,
     year: '2022',
     author: 'Pengarang 5',
-    imageSrc: 'https://via.placeholder.com/150',
+    imageSrc: 'https://shop.bukuerlangga.com/uploads/cover/2008083800.jpg',
     imageAlt: 'Sampul Buku Judul Buku 5',
   },
   {
@@ -306,7 +306,7 @@ const books = [
     price: 50000,
     year: '2021',
     author: 'Pengarang 6',
-    imageSrc: 'https://via.placeholder.com/150',
+    imageSrc: 'https://shop.bukuerlangga.com/uploads/cover/5025000140.jpg',
     imageAlt: 'Sampul Buku Judul Buku 6',
   },
   {
@@ -316,7 +316,7 @@ const books = [
     price: 60000,
     year: '2020',
     author: 'Pengarang 7',
-    imageSrc: 'https://via.placeholder.com/150',
+    imageSrc: 'https://shop.bukuerlangga.com/uploads/cover/0032970210.jpg',
     imageAlt: 'Sampul Buku Judul Buku 7',
   },
   {
@@ -326,7 +326,7 @@ const books = [
     price: 70000,
     year: '2019',
     author: 'Pengarang 8',
-    imageSrc: 'https://via.placeholder.com/150',
+    imageSrc: 'https://shop.bukuerlangga.com/uploads/cover/0027000090.jpg',
     imageAlt: 'Sampul Buku Judul Buku 8',
   },
 ]

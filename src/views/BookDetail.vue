@@ -112,19 +112,19 @@ const buku = {
     {
       id: 1,
       name: 'Gambar Sampul',
-      src: 'https://via.placeholder.com/150',
+      src: 'https://shop.bukuerlangga.com/uploads/cover/0043710280.jpg',
       alt: 'Gambar sampul buku contoh',
     },
     {
       id: 2,
       name: 'Gambar Sampul 2',
-      src: 'https://via.placeholder.com/150',
+      src: 'https://shop.bukuerlangga.com/uploads/cover/0043710280.jpg',
       alt: 'Gambar sampul buku contoh 2',
     },
     {
       id: 3,
       name: 'Gambar Sampul 3',
-      src: 'https://via.placeholder.com/150',
+      src: 'https://shop.bukuerlangga.com/uploads/cover/0043710280.jpg',
       alt: 'Gambar sampul buku contoh 3',
     },
     // More images...
